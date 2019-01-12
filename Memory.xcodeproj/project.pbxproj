@@ -13,6 +13,9 @@
 		D8C8DCBA21E92D1B00470C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C8DCB921E92D1B00470C4F /* Assets.xcassets */; };
 		D8C8DCBD21E92D1B00470C4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8C8DCBB21E92D1B00470C4F /* LaunchScreen.storyboard */; };
 		D8C8DCC821E92D1B00470C4F /* MemoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8DCC721E92D1B00470C4F /* MemoryTests.swift */; };
+		D8C8DCD321E92DC600470C4F /* MemoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8DCD221E92DC600470C4F /* MemoryItem.swift */; };
+		D8C8DCD721E947C000470C4F /* items.json in Resources */ = {isa = PBXBuildFile; fileRef = D8C8DCD621E947C000470C4F /* items.json */; };
+		D8C8DCD921E9484C00470C4F /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C8DCD821E9484C00470C4F /* MemoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		D8C8DCC321E92D1B00470C4F /* MemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8C8DCC721E92D1B00470C4F /* MemoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTests.swift; sourceTree = "<group>"; };
 		D8C8DCC921E92D1B00470C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C8DCD221E92DC600470C4F /* MemoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryItem.swift; sourceTree = "<group>"; };
+		D8C8DCD621E947C000470C4F /* items.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = items.json; sourceTree = "<group>"; };
+		D8C8DCD821E9484C00470C4F /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,11 @@
 		D8C8DCB121E92D1900470C4F /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				D8C8DCD621E947C000470C4F /* items.json */,
+				D8C8DCD821E9484C00470C4F /* MemoryViewController.swift */,
 				D8C8DCB221E92D1900470C4F /* AppDelegate.swift */,
 				D8C8DCB421E92D1900470C4F /* ViewController.swift */,
+				D8C8DCD221E92DC600470C4F /* MemoryItem.swift */,
 				D8C8DCB621E92D1900470C4F /* Main.storyboard */,
 				D8C8DCB921E92D1B00470C4F /* Assets.xcassets */,
 				D8C8DCBB21E92D1B00470C4F /* LaunchScreen.storyboard */,
@@ -177,6 +186,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C8DCD721E947C000470C4F /* items.json in Resources */,
 				D8C8DCBD21E92D1B00470C4F /* LaunchScreen.storyboard in Resources */,
 				D8C8DCBA21E92D1B00470C4F /* Assets.xcassets in Resources */,
 				D8C8DCB821E92D1900470C4F /* Main.storyboard in Resources */,
@@ -198,7 +208,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8C8DCB521E92D1900470C4F /* ViewController.swift in Sources */,
+				D8C8DCD921E9484C00470C4F /* MemoryViewController.swift in Sources */,
 				D8C8DCB321E92D1900470C4F /* AppDelegate.swift in Sources */,
+				D8C8DCD321E92DC600470C4F /* MemoryItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
